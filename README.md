@@ -1,6 +1,6 @@
 # Keto Calculator
 
-A simple web app that visualizes specific nutritional facts for a Keto  diet.
+A simple web app that visualizes Keto-specfic nutritional facts for items at a restaurant.
 
 ## Technologies
 - HTML5
