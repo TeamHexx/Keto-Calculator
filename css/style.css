@@ -25,8 +25,27 @@ header {
 main {
     flex-grow: 1;
 }
-
-#hits, form{
+.text{
+    padding: 30px;
+    font-size: 24px;
+    color:#fc6b3f;
+    border-radius: 10px;
+    border: #262525;
+    height: 33px;
+    width: auto;
+}
+.button{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: .8;
+    transition: 0.9s;
+}
+#hits{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,11 +54,28 @@ main {
     flex-wrap: wrap;
 }
 h2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     padding-left: 15px;
-    background-color: #fc6b3f;
+    background-color: #eba691;
     color: #fff6da;
+    border-radius: 5px;
 
 }
+ul {
+    display:flex;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+
+}
+li{
+    text-align: left;
+    justify-content: center;
+    padding: 3px;
+}
+
 footer{
     justify-content: center;
     color: #262525;
@@ -48,10 +84,14 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 3px;
-    width: 250px;
-    height: 150px;
-    margin: 5px;
-    border-radius: 25px;
-    border: 5px solid #262525
+    padding: 30px;
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 10px solid #262525;
+    color: #262525;
 }
+/* h2{
+    color:#fc6b3f
+} */
