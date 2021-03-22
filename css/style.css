@@ -2,10 +2,18 @@
     box-sizing: border-box;
     margin: 0;
 }
+body{
+    background-color: #fff6da;
+    color: #fc6b3f;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 header, footer {
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 60px;
 }
 header {
     padding-left: 15px;
@@ -17,15 +25,8 @@ header {
 main {
     flex-grow: 1;
 }
-body{
-    background-color: #fff6da;
-    color: #fc6b3f;
-    font-family: Helvetica;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-#items, form{
+
+#hits, form{
     display: flex;
     justify-content: center;
     align-items: center;
