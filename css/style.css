@@ -25,16 +25,21 @@ header {
 main {
     flex-grow: 1;
 }
+form{
+    padding: 10px;
+    background-color: #262525;
+}
 .text{
-    padding: 30px;
+    padding: 25px;
     font-size: 24px;
     color:#fc6b3f;
     border-radius: 10px;
-    border: #262525;
     height: 33px;
     width: auto;
+    background-color: ;
 }
 .button{
+    padding 5px;
     background-color: #f4511e;
     border: none;
     color: white;
@@ -92,6 +97,3 @@ footer{
     border: 10px solid #262525;
     color: #262525;
 }
-/* h2{
-    color:#fc6b3f
-} */
