@@ -38,7 +38,7 @@ form{
     width: auto;
     background-color: ;
 }
-.button{
+.button,.sort{
     padding 5px;
     background-color: #f4511e;
     border: none;
