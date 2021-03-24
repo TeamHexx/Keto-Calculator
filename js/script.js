@@ -15,7 +15,7 @@ function handlegetData(event) {
     event.preventDefault();
     const userInput = $input.val()
     console.log('userInput', userInput)
-    $.ajax({ url: 'https://api.nutritionix.com/v1_1/search/'+userInput+'?results=0:3&fields=item_name,brand_name,nf_sugars,nf_dietary_fiber,nf_total_carbohydrate,nf_calories&appId=4e5eb041&appKey=03ce9db54e9af884189a9857ae7b2592'
+    $.ajax({ url: 'https://api.nutritionix.com/v1_1/search/'+userInput+'?results=0:40&fields=item_name,brand_name,nf_sugars,nf_dietary_fiber,nf_total_carbohydrate,nf_calories&appId=4e5eb041&appKey=03ce9db54e9af884189a9857ae7b2592'
 }).then(function (data) {
     hits = data;
     render();
