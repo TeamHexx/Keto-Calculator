@@ -12,15 +12,21 @@
 <body>
     <header>
         <h1>Keto Calculator</h1>
-        <h1 id=brand_name></h1>
     </header>
     <main>
-        
         <form>
             <input class="text" type="text" placeholder="Search Restaurants" />
             <input class="button" type="submit" value="Search"/>
+            <button id="myBtn">Whats Keto?</button>
             <!-- <button class="sort">Sort A-Z</button> -->
         </form>
+        <div id="ketoInfo" class="modal">
+            <div class="keto-info">
+                <span class="close">&times;</span>
+                <p>Ketosis is a natural process the body initiates to help us survive when food intake is low.<br> During this state, we produce ketones, which are produced from the breakdown of fats in the liver.</p>
+                <p>A keto diet is well known for being a low carb diet, where the body produces ketones in the liver to be used as energy. <br>It’s referred to as many different names – ketogenic diet, low carb diet, low carb high fat (LCHF), etc.</p>
+            </div>
+        </div>
         
         <section>
             <section id="hits">
