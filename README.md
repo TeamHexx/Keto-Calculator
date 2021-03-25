@@ -10,7 +10,7 @@ A simple web app that visualizes Keto-specfic nutritional facts for items at a r
 - Nutritionix API
 
 ## Wireframe / Screenshots
-![wireframe](./imgs/wireframe.png)
+![wireframe](Imgs/wireframe.png)
 
 ## Getting Started
 [Click Here](https://teamhexx.github.io/Keto-Calculator/) to get started, and type a restuarant to search for carbs, sugars, fiber and calories for each food item.
